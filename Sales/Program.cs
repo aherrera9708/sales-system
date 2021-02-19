@@ -34,7 +34,7 @@ namespace Sales
             Sale sale1 = new Sale();
             sale1.Product = prod2;
             sale1.Seller = sel1;
-            sale1.Comments = "Women's t-shirt";
+            sale1.Comments = "Men's t-shirt";
 
             Sale sale2 = new Sale();
             sale2.Product = prod3;
