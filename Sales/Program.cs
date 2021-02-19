@@ -20,31 +20,31 @@ namespace Sales
             sel3.Age = 27;
 
             Product prod1 = new Product();
-            prod1.Name = "Cafe";
+            prod1.Name = "Coffee";
             prod1.Price = 4000;
 
             Product prod2 = new Product();
-            prod2.Name = "Camiseta";
+            prod2.Name = "Shirt";
             prod2.Price = 20000;
 
             Product prod3 = new Product();
-            prod3.Name = "Cable UTP";
+            prod3.Name = "UTP Cable";
             prod3.Price = 8000;
            
             Sale sale1 = new Sale();
             sale1.Product = prod2;
             sale1.Seller = sel1;
-            sale1.Comments = "";
+            sale1.Comments = "Women's t-shirt";
 
             Sale sale2 = new Sale();
             sale2.Product = prod3;
             sale2.Seller = sel2;
-            sale2.Comments = "";
+            sale2.Comments = "2 meters";
 
             Sale sale3 = new Sale();
             sale3.Product = prod1;
             sale3.Seller = sel3;
-            sale3.Comments = "";
+            sale3.Comments = "Coffee from Colombia";
 
             //Calculate sales total amount
             int salesTotal1 = 0;
